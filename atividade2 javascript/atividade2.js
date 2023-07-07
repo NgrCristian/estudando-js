@@ -50,25 +50,25 @@ else{
 
 // ESCREVA UM PROGRAMA QUE RECEBA O NOME DE UM DIA DA SEMANA E EXIBA SE É UM DIA ÚTIL OU UM FIM DE SEMANA.
 let nome = "domingo";
-if(nome = "segunda"){
+if(nome == "segunda"){
     console.log("É um dia útil!");
 }
-else if(nome = "terça"){
+else if(nome == "terça"){
     console.log("É um dia útil!");
 }
-else if(nome = "quarta"){
+else if(nome == "quarta"){
     console.log("É um dia útil!");
 }
 else if(nome = "quinta"){
     console.log("É um dia útil!");
 }
-else if(nome = "sexta"){
+else if(nome == "sexta"){
     console.log("É um dia útil!");
 }
-else if(nome = "sabado"){
+else if(nome == "sabado"){
     console.log("É um final de semana!");
 }
-else if(nome = "domingo"){
+else if(nome == "domingo"){
     console.log("É um final de semana!");
 }
 else{
