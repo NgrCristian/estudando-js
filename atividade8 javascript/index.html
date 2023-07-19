@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title>
+    <style>
+        img {
+            width: 120px;
+        }
+        h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 80px;
+        }
+        button{
+            width: 150px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>SEMAFORO:</h1>
+    <div>
+        <img id="red" src="vermelho.png">
+        <img id="yellow" src="amarelo.png">
+        <img id="green" src="verde.png">
+    </div>
+    <div>
+        <button onclick="sinalVermelho()">Vermelho</button>
+        <button onclick="sinalAmarelo()">Amarelo</button>
+        <button onclick="sinalVerde()">Verde</button>
+    </div>
+    <div>
+        <button onclick="trocarAutomaticamente()">Automatico</button>
+        <button onclick="parar()">Parar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
